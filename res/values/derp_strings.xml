@@ -17,6 +17,11 @@
     <string name="scoop_version">ScoopDroid version</string>
     <string name="scoop_version_default">Unknown</string>
 
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
+
     <!-- Platform version -->
     <string name="platform_version">Platform version</string>
 
