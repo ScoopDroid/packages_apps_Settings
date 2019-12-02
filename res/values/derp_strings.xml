@@ -13,6 +13,7 @@
     <string name="advanced_keyboard_settings_title">Advanced settings</string>
 
     <!-- ScoopDroid version -->
+    <string name="about_device_name">Device</string>
     <string name="scoop_version">ScoopDroid version</string>
     <string name="scoop_version_default">Unknown</string>
 
