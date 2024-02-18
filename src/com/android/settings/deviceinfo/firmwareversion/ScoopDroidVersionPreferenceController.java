@@ -36,13 +36,13 @@ import com.android.settings.slices.Sliceable;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
-public class DerpFestVersionPreferenceController extends BasePreferenceController {
+public class ScoopDroidVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "derpfestVersionDialogCtrl";
+    private static final String TAG = "scoopdroidVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_DERP_VERSION_PROP = "ro.derp.version";
+    private static final String KEY_DERP_VERSION_PROP = "ro.scoop.version";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -50,7 +50,7 @@ public class DerpFestVersionPreferenceController extends BasePreferenceControlle
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public DerpFestVersionPreferenceController(Context context, String key) {
+    public ScoopDroidVersionPreferenceController(Context context, String key) {
         super(context, key);
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
         initializeAdminPermissions();

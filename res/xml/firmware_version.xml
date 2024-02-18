@@ -37,13 +37,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- DerpFest version -->
+    <!-- ScoopDroid version -->
     <Preference
-        android:key="derp_version"
-        android:title="@string/derp_version"
+        android:key="scoop_version"
+        android:title="@string/scoop_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ScoopDroidVersionPreferenceController"/>
 
     <!-- Changelog -->
     <Preference
