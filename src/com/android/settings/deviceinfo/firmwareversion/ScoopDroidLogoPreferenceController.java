@@ -30,14 +30,14 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class DerpFestLogoPreferenceController extends BasePreferenceController {
+public class ScoopDroidLogoPreferenceController extends BasePreferenceController {
 
-    private static final Uri INTENT_URI_DATA = Uri.parse("https://derpfest.org/");
-    private static final String TAG = "DerpFestLogoPreferenceCtrl";
+    private static final Uri INTENT_URI_DATA = Uri.parse("https://t.me/digigoon_group");
+    private static final String TAG = "ScoopDroidLogoPreferenceCtrl";
 
     private final PackageManager mPackageManager;
 
-    public DerpFestLogoPreferenceController(Context context, String preferenceKey) {
+    public ScoopDroidLogoPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }
