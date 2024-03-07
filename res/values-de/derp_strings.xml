@@ -506,9 +506,6 @@
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
     <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, die den Startvorgang von GPS erheblich verbessern können. Für Notrufe ist das unterstützte GPS immer erlaubt.</string>
 
-    <!-- Radio Info -->
-    <string name="radio_info_title">Radio-Info</string>
-
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
 
